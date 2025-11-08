@@ -20,9 +20,9 @@ export const Nav = () => {
         <Image
           src="/soul-yatri-logo.png" // Path to your logo in /public
           alt="Soul Yatri Logo"
-          width={40} // Increased from 28
-          height={40} // Increased from 28
-          className="object-contain" // Ensures logo scales nicely
+          width={35} // Set the display width
+          height={35} // Set the display height
+          className="size-7" // You can adjust sizing here
         />
         <span className="font-medium">Soul Yatri</span>
       </Link>
@@ -47,4 +47,3 @@ export const Nav = () => {
     </div>
   );
 };
-```eof
